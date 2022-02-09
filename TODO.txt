@@ -1,0 +1,4 @@
+Revoir:
+- Vecteurs propres et vecteurs réels
+- Décomposition de matrice en somme pondérée de vecteurs
+- Algèbre linéaire en générale
