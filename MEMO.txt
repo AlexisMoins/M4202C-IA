@@ -1,0 +1,32 @@
+Une donnée est représentée par un vecteur. Pour une image, il contient les différent canaux de couleur.
+Chaque cellule du vecteur correspond à une caractéristique (ex: glucose).
+
+individu_1 = (glucose, diabetes, age, est_enceinte)
+
+Problème: certaines caractéristiques peuvent êtres corrélées. Il est donc important de pré traiter les
+données en passant notamment par un notebook Jupyter.
+
+Les modèles doivent êtres les plus simple possibles. Plus le modèle est compliqué, plus on prend
+le risque de faire du sur-apprentissage (mémorise bien les données mais n'arrive pas à généraliser).
+
+Centrer une donnée: soustraire la moyenne de l'échantillon à chacune des valeurs
+Réduire une donnée: ?
+
+Le fait de centrer et réduire un jeu de données permet de ramener les données sur l'intervalle (-3; 3)
+et donc de comparer des données naturellement difficilement comparables.
+
+Une base de données (ensemble de vecteurs) est donc représentée par une matrice.
+
+individu_1 = (glucose, diabetes, age, est_enceinte)
+individu_2 = (glucose, diabetes, age, est_enceinte)
+individu_3 = (glucose, diabetes, age, est_enceinte)
+
+devient
+
+jeu de données = [ (glucose, diabetes, age, est_enceinte), 
+                   (glucose, diabetes, age, est_enceinte),
+                   (glucose, diabetes, age, est_enceinte) ]
+
+/!\ Standardiser le jeu de données utilisées par le modèle uniquement
+
+Anthropie maths

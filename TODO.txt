@@ -2,3 +2,4 @@ Revoir:
 - Vecteurs propres et vecteurs réels
 - Décomposition de matrice en somme pondérée de vecteurs
 - Algèbre linéaire en générale
+- Distance euclidienne entre deux vercteurs: sqrt( (ax - bx)^2 + (ay - by)^2 )
